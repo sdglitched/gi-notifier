@@ -27,8 +27,7 @@ fix = true
 select = ["E", "F", "W", "I", "S", "B", "UP"]
 
 [tool.ruff.lint.per-file-ignores]
-"gi_notifier/temp/characters.py" = ["E501"]
-"gi_notifier/models/models.py" = ["E501"]
+"gi_notifier/data/*" = ["E501"]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
